@@ -1,0 +1,113 @@
+body{
+    background: white;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    position: absolute;
+    top: 15%;
+    left:35%;
+    padding: 15px;
+}
+
+h3 b{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #f59e0b;
+}
+
+span{
+    color: red;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #f59e0b;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 10px 20px 3px;
+    width: 15%;
+    background:white;
+    border: solid 2px #f59e0b;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #ccc;
+}
+
+#output{
+    font-size: 20px;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    width: 20%;
+}
+
+#tinggi{
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+#tinggi:hover{
+    background-color: #fde68a;
+}
+
+#berat{
+    width: 30px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+#berat:hover{
+    background-color: #fde68a;
+}
+
+.wrapper:hover{
+    box-shadow: 0 0 40px 0 #f59e0b;
+}
+
+#tinggi_error{
+    color: red;
+}
+
+#berat_error{
+    color: red;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    background: #f59e0b;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f5b546;
+}
+
